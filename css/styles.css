@@ -7,16 +7,51 @@
 
 
 
-body {font-family: 'Roboto', sans-serif;}
+body {font-family: 'Roboto', sans-serif;
+color: var(--dark-gray)}
+
+ul{
+    list-style-type: none;
+}
+
+a {text-decoration: none;}
+
+a:hover, a:focus {
+    color: var(--Vivid-blue);;
+  }
+
+  button{
+    cursor: pointer;
+  }
+
+  button:hover, button:focus {background:var(--Vivid-blue)}
+
+nav{
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.02em;
+}   
+
+
+
+.footer-address {
+    display: block;
+    font-style: normal;
+    color: var(--white);
+}
+.footer-address a{
+    color: var(--white);
+}
+
+.footer-address a:hover, .footer-address a:focus{
+    font-weight: 900;
+    color: var(--white);
+
+}
 
 .site-footer{
     height: 252px;
 background: #2F303A;
-}
-
-.site-footer address{
-    color: var(--white);
-
 }
 
 .solutions {
@@ -37,7 +72,6 @@ color: var(--white);
 font-weight: 700;
 font-size: 18px;
 line-height: 200%;
-color: var(--dark-gray);
     }
 
  .completed-jobs p{
@@ -47,13 +81,6 @@ color: var(--dark-gray);
             
         }    
 
-        a:hover {
-            color: var(--Vivid-blue);;
-          }
-    
-
-    button:hover {background:var(--Vivid-blue)}
-
     a.logo {font-family: 'Raleway';
         font-weight: 700;
         font-size: 26px;
@@ -61,12 +88,8 @@ color: var(--dark-gray);
         letter-spacing: 0.03em;
         color: var(--Vivid-blue);}
 
-        nav{
-            font-size: 14px;
-            line-height: 16px;
-            letter-spacing: 0.02em;
-            
-            color: color: var(--dark-gray);
+        
+    
 
             footer{height: 252px;
                 left: 0px;

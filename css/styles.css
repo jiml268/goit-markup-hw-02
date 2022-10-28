@@ -1,4 +1,83 @@
-body {font-family: 'Roboto', sans-serif;
+:root {
+    --Vivid-blue: #2196f3;
+    --dark-gray: #212121;
+    --gray: #757575;
+    --white: #ffffff;
+  }
+
+
+
+body {font-family: 'Roboto', sans-serif;}
+
+.site-footer{
+    height: 252px;
+background: #2F303A;
 }
 
-font-family: 'Raleway', sans-serif;
+.site-footer address{
+    color: var(--white);
+
+}
+
+.solutions {
+    height: 600px;
+    background-color: #2F303A;}
+
+.solutions h1 {
+    height: 120px;
+font-weight: 900;
+line-height: 60px;
+/* or 136% */
+text-align: center;
+color: var(--white);
+
+   } 
+
+.completed-jobs h3{
+font-weight: 700;
+font-size: 18px;
+line-height: 200%;
+color: var(--dark-gray);
+    }
+
+ .completed-jobs p{
+            font-size: 16px;
+            line-height: 188%;
+            color: var(--gray);
+            
+        }    
+
+        a:hover {
+            color: var(--Vivid-blue);;
+          }
+    
+
+    button:hover {background:var(--Vivid-blue)}
+
+    a.logo {font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: var(--Vivid-blue);}
+
+        nav{
+            font-size: 14px;
+            line-height: 16px;
+            letter-spacing: 0.02em;
+            
+            color: color: var(--dark-gray);
+
+            footer{height: 252px;
+                left: 0px;
+                top: 2097px;
+                
+                background: #2F303A;}
+
+             footer.address{
+                font-family: 'Roboto';
+font-size: 14px;
+line-height: 171%;
+letter-spacing: 0.03em;
+color: var(--white);}
+             }   

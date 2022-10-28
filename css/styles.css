@@ -3,6 +3,8 @@
     --main-text-color: #212121;
     --main-title-color: #757575;
     --secondary-text-color: #ffffff;
+    --footer-contact-color: rgba(255, 255, 255, 0.6);
+
   }
 
 
@@ -27,13 +29,7 @@ a:hover, a:focus {
     cursor: pointer;
   }
 
-  button:hover, button:focus {background:var(--accent-color)}
-
-nav{
-    font-size: 14px;
-    line-height: 16px;
-    letter-spacing: 0.02em;
-}   
+  button:hover, button:focus {background:var(--accent-color)}  
 
 .navigation-link{
 font-size: 14px;
@@ -52,10 +48,15 @@ color: var(--main-text-color);
 
 }
 
-.contact-link:hover .contact-link:focus{
+.contact-link:hover, .contact-link:focus{
     font-size: 14px;
     line-height: cal(16/14);
-    letter-spacing: 0.02em;
+ a.logo {font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 26px;
+        line-height: 31px;
+        letter-spacing: 0.03em;
+        color: var(--accent-color);}    letter-spacing: 0.02em;
     color: var(--accent-color);
 }
     
@@ -64,19 +65,6 @@ color: var(--main-text-color);
     display: block;
     font-style: normal;
     color: var(--secondary-text-color);
-}
-.footer-address a{
-    color: var(--secondary-text-color);
-}
-
-.footer-address a:hover, .footer-address a:focus{
-    font-weight: 900;
-    color: var(--secondary-text-color);
-
-}
-
-.site-footer{
-background: #2F303A;
 }
 
 .solutions-hero {
@@ -115,47 +103,55 @@ color: var(--secondary-text-color);
     
 }
 
-.feature-text{
+.featues-text{
 font-weight: 400;
 font-size: 14px;
 line-height: 171%;
 letter-spacing: 0.03em;
-color: var(--secondary-text-color);
+color: var(--main-title-color);
 }
 
-.completed-jobs h3{
-font-weight: 700;
-font-size: 18px;
-line-height: 200%;
+.logo {
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 31px;
+    letter-spacing: 0.03em;
+    color: var(--accent-color);}
+
+    .employee-name{
+        font-size: 16px;
+        line-height: cal(19/16);
+        text-align: center;
+        letter-spacing: 0.03em;}
+    
+    
+    .employee-postion{
+        font-weight: 400;
+font-size: 16px;
+line-height: cal(19/16);
+text-align: center;
     }
 
- .completed-jobs p{
-            font-size: 16px;
-            line-height: 188%;
-            color: var(--main-title-color);
-            
-        }    
+    .site-footer {
+        background-color: #2F303A;}
 
-    a.logo {font-family: 'Raleway';
-        font-weight: 700;
-        font-size: 26px;
-        line-height: 31px;
-        letter-spacing: 0.03em;
-        color: var(--accent-color);}
+        .footer-addreess{
+            font-weight: 400;
+            font-size: 14px;
+line-height: cal(14/24);
+color: var(--secondary-text-color);
+        }
+        .footer-addreess:hover, .footer-addreess:focus{
+            color:yellow;
+        }
 
-        
-    
-
-            footer{height: 252px;
-                left: 0px;
-                top: 2097px;
-                
-                background: #2F303A;}
-
-             footer.address{
-                font-family: 'Roboto';
+        .foot-contact{
+            font-weight: 400;
 font-size: 14px;
-line-height: 171%;
-letter-spacing: 0.03em;
-color: var(--secondary-text-color);}
-             }   
+line-height: cal(14/24);
+color: var(--footer-contact-color);
+}
+
+.foot-contact:hover, .foot-contact:focus{
+    color:yellow;
+}

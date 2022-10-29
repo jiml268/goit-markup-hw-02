@@ -4,9 +4,10 @@
     --accent-color: #2196f3;
     --main-text-color: #212121;
     --main-title-color: #757575;
-    --secondary-text-color: #ffffff;
-    --footer-contact-color: rgba(255, 255, 255, 0.6);
-  }
+    --secondary-text-color:#757575;
+    --white-text-color: #ffffff;
+    --footer-contact-color: rgba(255, 255, 255, 0.6)
+      }
 
 body {font-family: 'Roboto', sans-serif;
     color: var(--main-text-color);
@@ -31,8 +32,9 @@ button{
 button:hover, button:focus {background:var(--accent-color)}*/  
 
 .navigation-link{
+font-weight: 500;
     font-size: 14px;
-    line-height: 114%;
+    line-height: cal(16/14)
     letter-spacing: 0.02em;
     color: var(--main-text-color);
 }
@@ -40,15 +42,16 @@ button:hover, button:focus {background:var(--accent-color)}*/
 .current-page {color: var(--accent-color);}
 
 .contact-link{
+font-weight: 500;
     font-size: 14px;
-    line-height: 114%;
+    line-height: cal(14/16);
     letter-spacing: 0.02em;
-    color: var(--main-text-color);
+    color: var(--secondary-text-color);
 }
 
 .contact-link:hover, .contact-link:focus{
     font-size: 14px;
-    line-height: 114%;
+    line-height:cal(14/16);
      letter-spacing: 0.02em;
     color: var(--accent-color);
 }
@@ -57,34 +60,35 @@ button:hover, button:focus {background:var(--accent-color)}*/
 .footer-address {
     display: block;
     font-style: normal;
-    color: var(--secondary-text-color);
+    color: var(--white-text-color);
 }
+
 
 .site-footer {
       background-color: #2F303A;}
 
-.footer-addreess {
+.footer-addreess-link {
       font-weight: 400;
       font-size: 14px;
-      line-height: .58%;
-      color: var(--secondary-text-color);
+      line-height: cal(24/14);
+      color: var(--white-text-color);
 }
 
   .footer-addreess:hover,
   .footer-addreess:focus {
-      color: yellow;
+    color: var(--accent-color);
   }
 
   .foot-contact {
       font-weight: 400;
       font-size: 14px;
-      line-height: .58%;
+      line-height: cal(24/14);
       color: var(--footer-contact-color);
   }
 
   .foot-contact:hover,
   .foot-contact:focus {
-      color: yellow;
+    color: var(--accent-color);
   }
 
 .logo {
@@ -103,31 +107,41 @@ button:hover, button:focus {background:var(--accent-color)}*/
 .solutions-title {
     font-weight: 900;
     font-size: 44px;
-    line-height: 136%;
+    line-height: calc(60/44);
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
-color: var(--secondary-text-color);
+color: var(--white-text-color);
    } 
 
    .hero-button {
 font-weight: 700;
 font-size: 16px;
-line-height: 188%;
+line-height: calc(30/16)
 text-align: center;
 letter-spacing: 0.06em;
 background-color: var(--accent-color);
-color: var(--secondary-text-color);
+color: var(--white-text-color);
    }
 
 .hero-button:hover, .hero-button:focus{
     background-color: darkblue;
 }
 
+.section-description{
+    font-weight: 700;
+        font-size: 36px;
+        line-height: cal(42/36);
+        text-align: center;
+        letter-spacing: 0.03em;
+    
+        color: var(--main-text-color);
+}
+
 .feature-title{
     font-weight: 700;
     font-size: 14px;
-    line-height: 114%;
+    line-height: cal(16/14);
     text-transform: uppercase;
     color: var(--main-text-color);
     
@@ -136,7 +150,7 @@ color: var(--secondary-text-color);
 .featues-text{
 font-weight: 400;
 font-size: 14px;
-line-height: 171%;
+line-height: cal(24/14);
 letter-spacing: 0.03em;
 color: var(--main-title-color);
 }
@@ -144,7 +158,7 @@ color: var(--main-title-color);
 
 .employee-name{
     font-size: 16px;
-    line-height: 119%;
+    line-height: cal(19/16);
     text-align: center;
     letter-spacing: 0.03em;
 }
@@ -153,7 +167,7 @@ color: var(--main-title-color);
 .employee-postion{
     font-weight: 400;
     font-size: 16px;
-    line-height: 119%;
+    line-height: calc(19/16);
     text-align: center;
     }
 
@@ -165,19 +179,20 @@ color: var(--main-title-color);
 .protfolio-work-button {
     font-size: 16px;
     font-weight: 500;
-    line-height: 162%;
+    line-height: cal(26/16);
     text-align: center;
     color: var(--main-text-color);
    
 }
 .protfolio-work-button:hover, .protfolio-work-button:focus{
     background-color:var(--accent-color:);
+    color:var(--white-text-color)
 }
 
 .project-type{
     font-weight: 400;
     font-size: 16px;
-    line-height: 188%;
+    line-height: cal(30/16);
     color: var(--main-title-color);
 }
     
@@ -185,6 +200,6 @@ color: var(--main-title-color);
 .project-title{
     font-weight: 700;
     font-size: 18px;
-    line-height: 200%;
+    line-height: cal(36/18);
     letter-spacing: 0.06em;
 }
